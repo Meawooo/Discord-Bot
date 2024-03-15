@@ -65,7 +65,7 @@ module.exports = {
                 },
                 {
                     name: `🔗┆Links`,
-                    value: `[Website](https://corwindev.nl/) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`
+                    value: `[Website](https://aiarzz.com/) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/926170638555680879/vote)`
                 },
             ],
             components: [row],
