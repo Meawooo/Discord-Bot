@@ -22,7 +22,7 @@ module.exports = async (client, interaction, args) => {
         },
         {
             name: "🌐┆Website",
-            value: `[https://aiarzz.com](https://corwindev.nl)`,
+            value: `[https://aiarzz.com](https://aiarzz.com)`,
             inline: true,
         }],
         type: 'editreply'
