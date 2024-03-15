@@ -4,8 +4,8 @@ module.exports = async (client, interaction, args) => {
     let row = new Discord.ActionRowBuilder()
         .addComponents(
             new Discord.ButtonBuilder()
-                .setLabel("CorwinDev GitHub")
-                .setURL("https://github.com/sponsors/CorwinDev")
+                .setLabel("Araan Sheikh GitHub")
+                .setURL("https://github.com/sponsors/Araan-Sheikh")
                 .setStyle(Discord.ButtonStyle.Link),
         );
 
