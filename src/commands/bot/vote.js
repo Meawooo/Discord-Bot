@@ -19,7 +19,7 @@ module.exports = async (client, interaction, args) => {
             client.embed({
                 title: `📨・Vote`,
                 desc: `You have voted!`,
-                image: `https://cdn.discordapp.com/attachments/843487478881976381/874694192755007509/Bot_banner_vote.jpg`,
+                image: `https://cdn.discordapp.com/attachments/875968296556572722/1218412249564184726/clomel.gif?ex=660791d5&is=65f51cd5&hm=d9c1e7ba3b6960c48c3fe0c68acb7ed319b0ae069d608998d9f4e154885bb4e2&`,
                 color: client.config.colors.succes,
                 components: [row],
                 type: 'editreply'
@@ -29,7 +29,7 @@ module.exports = async (client, interaction, args) => {
             client.embed({
                 title: `📨・Vote`,
                 desc: `You have not voted!`,
-                image: `https://cdn.discordapp.com/attachments/843487478881976381/874694192755007509/Bot_banner_vote.jpg`,
+                image: `https://cdn.discordapp.com/attachments/875968296556572722/1218412249564184726/clomel.gif?ex=660791d5&is=65f51cd5&hm=d9c1e7ba3b6960c48c3fe0c68acb7ed319b0ae069d608998d9f4e154885bb4e2&`,
                 color: client.config.colors.error,
                 components: [row],
                 type: 'editreply'
