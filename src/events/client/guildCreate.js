@@ -32,7 +32,7 @@ module.exports = async (client, guild) => {
                         { name: "Server members", value: `${guild.memberCount}`, inline: true },
                         { name: "Server owner", value: `<@!${guild.ownerId}> (${guild.ownerId})`, inline: true },
                     )
-                    .setThumbnail("https://cdn.discordapp.com/attachments/843487478881976381/852419422392156210/BotPartyEmote.png")
+                    .setThumbnail("https://cdn.discordapp.com/attachments/875968296556572722/1218412249564184726/clomel.gif?ex=660791d5&is=65f51cd5&hm=d9c1e7ba3b6960c48c3fe0c68acb7ed319b0ae069d608998d9f4e154885bb4e2&")
                     .setColor(client.config.colors.normal)
                 webhookClient.send({
                     username: 'Bot Logs',
@@ -65,7 +65,7 @@ module.exports = async (client, guild) => {
 
         client.embed({
             title: "Thanks for inviting the bot!",
-            image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/bot_banner_invite.jpg",
+            image: "https://cdn.discordapp.com/attachments/875968296556572722/1218412249564184726/clomel.gif?ex=660791d5&is=65f51cd5&hm=d9c1e7ba3b6960c48c3fe0c68acb7ed319b0ae069d608998d9f4e154885bb4e2&",
             fields: [{
                 name: "❓┆How to setup?",
                 value: 'The default prefix = \`/\` \nTo run setups with Bot run \`/setup\`',
