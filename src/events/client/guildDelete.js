@@ -62,7 +62,7 @@ module.exports = async (client, guild) => {
                 { name: "Server members", value: `${guild.memberCount}`, inline: true },
                 { name: "Server owner", value: `<@!${guild.ownerId}> (${guild.ownerId})`, inline: true },
             )
-            .setThumbnail("https://cdn.discordapp.com/attachments/843487478881976381/852419424895631370/BotSadEmote.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/875968296556572722/1218412249564184726/clomel.gif?ex=660791d5&is=65f51cd5&hm=d9c1e7ba3b6960c48c3fe0c68acb7ed319b0ae069d608998d9f4e154885bb4e2&")
             .setColor(client.config.colors.normal)
         kickLogs.send({
             username: 'Bot Logs',
